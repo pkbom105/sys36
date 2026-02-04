@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'; // เพิ่มบรรทัดนี้ไว้บนสุด
+
 import { NextResponse } from 'next/server';
 import clientPromise from '@/lib/mongodb';
 import { calculateGolfResult } from '@/lib/golf-logic';

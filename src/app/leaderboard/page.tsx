@@ -1,4 +1,7 @@
 // src/app/leaderboard/page.tsx
+
+export const dynamic = 'force-dynamic';
+
 import clientPromise from "@/lib/mongodb";
 import { ScoreEntry } from "@/types";
 
